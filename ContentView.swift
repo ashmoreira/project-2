@@ -17,13 +17,11 @@ struct ContentView: View {
             VStack {
                 statusBarView()
                 currentView()
-                    .padding(30)
                 hourlyForecastView()
                 weeklyForecastView()
             }
         }
         .foregroundStyle(Color.white)
-        .padding(.top,80)
     }
 }
 #Preview {
